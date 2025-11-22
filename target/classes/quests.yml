@@ -1,0 +1,496 @@
+############################################################
+#                    zMysticQuest :: Quest Configurations  #
+#           These quests will test the player's skills!     #
+############################################################
+
+##############################
+#         KILL Quests         #
+##############################
+
+# Zombie Hunter
+kill_zombie:
+  type: KILL
+  name: "Zombie Hunter"
+  description: "Hunt down 10 zombies"
+  entity: "ZOMBIE"
+  amount: 10
+  xp: 100
+
+# Skeleton Slayer
+kill_skeleton:
+  type: KILL
+  name: "Skeleton Slayer"
+  description: "Defeat 15 skeletons"
+  entity: "SKELETON"
+  amount: 15
+  xp: 150
+
+# Creeper Crusher
+kill_creeper:
+  type: KILL
+  name: "Creeper Crusher"
+  description: "Destroy 8 creepers"
+  entity: "CREEPER"
+  amount: 8
+  xp: 120
+
+# Spider Squisher
+kill_spider:
+  type: KILL
+  name: "Spider Squisher"
+  description: "Crush 12 spiders"
+  entity: "SPIDER"
+  amount: 12
+  xp: 110
+
+# Witch Hunter
+kill_witch:
+  type: KILL
+  name: "Witch Hunter"
+  description: "Take down 3 witches"
+  entity: "WITCH"
+  amount: 3
+  xp: 200
+
+# Ender Stalker
+kill_enderman:
+  type: KILL
+  name: "Ender Stalker"
+  description: "Defeat 4 Endermen"
+  entity: "ENDERMAN"
+  amount: 4
+  xp: 250
+
+# Blazing Fury
+kill_blaze:
+  type: KILL
+  name: "Blazing Fury"
+  description: "Eliminate 6 Blazes"
+  entity: "BLAZE"
+  amount: 6
+  xp: 300
+
+# Sea Slayer
+kill_guardian:
+  type: KILL
+  name: "Sea Slayer"
+  description: "Slay 3 Guardians"
+  entity: "GUARDIAN"
+  amount: 3
+  xp: 320
+
+# Slime Buster
+kill_slime:
+  type: KILL
+  name: "Slime Buster"
+  description: "Kill 15 slimes"
+  entity: "SLIME"
+  amount: 15
+  xp: 100
+
+# Outpost Cleaner
+kill_pillager:
+  type: KILL
+  name: "Outpost Cleaner"
+  description: "Take down 10 Pillagers"
+  entity: "PILLAGER"
+  amount: 10
+  xp: 220
+
+############################################################
+#                    zMysticQuest :: COLLECT Quests         #
+#    These quests require the collection of specific items! #
+############################################################
+
+##############################
+#        COLLECT Quests       #
+##############################
+
+# Diamond Collector
+collect_diamonds:
+  type: COLLECT
+  name: "Diamond Collector"
+  description: "Collect 5 diamonds"
+  item: "DIAMOND"
+  amount: 5
+  xp: 200
+
+# Emerald Gatherer
+collect_emeralds:
+  type: COLLECT
+  name: "Emerald Gatherer"
+  description: "Gather 3 emeralds"
+  item: "EMERALD"
+  amount: 3
+  xp: 250
+
+# Golden Hoarder
+collect_golden_apples:
+  type: COLLECT
+  name: "Golden Hoarder"
+  description: "Find 2 golden apples"
+  item: "GOLDEN_APPLE"
+  amount: 2
+  xp: 300
+
+# Ancient Treasure
+collect_netherite_scrap:
+  type: COLLECT
+  name: "Ancient Treasure"
+  description: "Collect 1 netherite scrap"
+  item: "NETHERITE_SCRAP"
+  amount: 1
+  xp: 400
+
+# Blazing Mission
+collect_blaze_rods:
+  type: COLLECT
+  name: "Blazing Mission"
+  description: "Collect 5 blaze rods"
+  item: "BLAZE_ROD"
+  amount: 5
+  xp: 350
+
+# Nether Miner
+collect_quartz:
+  type: COLLECT
+  name: "Nether Miner"
+  description: "Collect 32 nether quartz"
+  item: "QUARTZ"
+  amount: 32
+  xp: 180
+
+# Bookworm
+collect_books:
+  type: COLLECT
+  name: "Bookworm"
+  description: "Collect 10 books"
+  item: "BOOK"
+  amount: 10
+  xp: 120
+
+# Dark Stone
+collect_obsidian:
+  type: COLLECT
+  name: "Dark Stone"
+  description: "Collect 6 obsidian blocks"
+  item: "OBSIDIAN"
+  amount: 6
+  xp: 210
+
+# Ender Fuel
+collect_end_pearls:
+  type: COLLECT
+  name: "Ender Fuel"
+  description: "Collect 4 Ender Pearls"
+  item: "ENDER_PEARL"
+  amount: 4
+  xp: 190
+
+# Demolition Prep
+collect_tnt:
+  type: COLLECT
+  name: "Demolition Prep"
+  description: "Collect 5 TNT blocks"
+  item: "TNT"
+  amount: 5
+  xp: 260
+
+############################################################
+#                    zMysticQuest :: EXPLORE Quests         #
+#    These quests are focused on exploring different biomes  #
+#    and discovering structures!                             #
+############################################################
+
+##############################
+#        EXPLORE Quests       #
+##############################
+
+# Desert Explorer
+explore_desert:
+  type: EXPLORE
+  name: "Desert Explorer"
+  description: "Find a desert temple"
+  biome: "DESERT"
+  structure: "DESERT_PYRAMID"
+  xp: 300
+
+# Jungle Adventure
+explore_jungle:
+  type: EXPLORE
+  name: "Jungle Adventure"
+  description: "Discover a jungle temple"
+  biome: "JUNGLE"
+  structure: "JUNGLE_PYRAMID"
+  xp: 350
+
+# Haunted Mansion
+explore_mansion:
+  type: EXPLORE
+  name: "Haunted Mansion"
+  description: "Locate a Woodland Mansion"
+  biome: "DARK_FOREST"
+  structure: "WOODLAND_MANSION"
+  xp: 500
+
+# Oceanic Explorer
+explore_ocean_monument:
+  type: EXPLORE
+  name: "Oceanic Explorer"
+  description: "Find an Ocean Monument"
+  biome: "OCEAN"
+  structure: "OCEAN_MONUMENT"
+  xp: 450
+
+# Into the Fire
+explore_nether_fortress:
+  type: EXPLORE
+  name: "Into the Fire"
+  description: "Locate a Nether Fortress"
+  biome: "NETHER_WASTES"
+  structure: "NETHER_FORTRESS"
+  xp: 400
+
+# Piglin Ruins
+explore_bastion:
+  type: EXPLORE
+  name: "Piglin Ruins"
+  description: "Enter a Bastion Remnant"
+  biome: "BASALT_DELTAS"
+  structure: "BASTION_REMNANT"
+  xp: 420
+
+# End Explorer
+explore_end_city:
+  type: EXPLORE
+  name: "End Explorer"
+  description: "Reach an End City"
+  biome: "THE_END"
+  structure: "END_CITY"
+  xp: 500
+
+# Witch’s Domain
+explore_swamp_hut:
+  type: EXPLORE
+  name: "Witch’s Domain"
+  description: "Find a Swamp Hut"
+  biome: "SWAMP"
+  structure: "SWAMP_HUT"
+  xp: 330
+
+# Frozen Heights
+explore_frozen_peaks:
+  type: EXPLORE
+  name: "Frozen Heights"
+  description: "Climb into Frozen Peaks biome"
+  biome: "FROZEN_PEAKS"
+  xp: 200
+
+# Mushroom Madness
+explore_mushroom_fields:
+  type: EXPLORE
+  name: "Mushroom Madness"
+  description: "Reach the rare Mushroom Fields biome"
+  biome: "MUSHROOM_FIELDS"
+  xp: 350
+
+############################################################
+#                    zMysticQuest :: CRAFT Quests           #
+#    These quests are focused on crafting various items!     #
+############################################################
+
+##############################
+#        CRAFT Quests         #
+##############################
+
+# Arcane Crafter
+craft_enchanted_table:
+  type: CRAFT
+  name: "Arcane Crafter"
+  description: "Craft an enchanting table"
+  item: "ENCHANTING_TABLE"
+  amount: 1
+  xp: 300
+
+# Suit Up!
+craft_diamond_armor:
+  type: CRAFT
+  name: "Suit Up!"
+  description: "Craft a diamond chestplate"
+  item: "DIAMOND_CHESTPLATE"
+  amount: 1
+  xp: 500
+
+# Smithing Time
+craft_anvil:
+  type: CRAFT
+  name: "Smithing Time"
+  description: "Craft an anvil"
+  item: "ANVIL"
+  amount: 1
+  xp: 200
+
+# Beacon Builder
+craft_beacon:
+  type: CRAFT
+  name: "Beacon Builder"
+  description: "Craft a beacon"
+  item: "BEACON"
+  amount: 1
+  xp: 800
+
+# Firework Engineer
+craft_firework:
+  type: CRAFT
+  name: "Firework Engineer"
+  description: "Craft 10 fireworks"
+  item: "FIREWORK_ROCKET"
+  amount: 10
+  xp: 150
+
+# Brewer's Touch
+craft_potion:
+  type: CRAFT
+  name: "Brewer's Touch"
+  description: "Brew 5 potions"
+  item: "POTION"
+  amount: 5
+  xp: 220
+
+# Cartographer
+craft_map:
+  type: CRAFT
+  name: "Cartographer"
+  description: "Craft 3 empty maps"
+  item: "MAP"
+  amount: 3
+  xp: 140
+
+# Dark Tools
+craft_obsidian_tools:
+  type: CRAFT
+  name: "Dark Tools"
+  description: "Craft an obsidian block for tools"
+  item: "OBSIDIAN"
+  amount: 1
+  xp: 100
+
+# Navigation Ready
+craft_compass:
+  type: CRAFT
+  name: "Navigation Ready"
+  description: "Craft a compass"
+  item: "COMPASS"
+  amount: 1
+  xp: 100
+
+# Sniper's Choice
+craft_crossbow:
+  type: CRAFT
+  name: "Sniper's Choice"
+  description: "Craft a crossbow"
+  item: "CROSSBOW"
+  amount: 1
+  xp: 180
+
+############################################################
+#                    zMysticQuest :: INTERACT Quests        #
+#     These quests involve interacting with various entities! #
+############################################################
+
+##############################
+#        INTERACT Quests      #
+##############################
+
+# Dog Whisperer
+tame_wolf:
+  type: INTERACT
+  name: "Dog Whisperer"
+  description: "Tame a wolf"
+  entity: "WOLF"
+  interaction: "TAME"
+  xp: 200
+
+# Cat Person
+tame_cat:
+  type: INTERACT
+  name: "Cat Person"
+  description: "Tame a stray cat"
+  entity: "CAT"
+  interaction: "TAME"
+  xp: 180
+
+# Horse Friend
+tame_horse:
+  type: INTERACT
+  name: "Horse Friend"
+  description: "Tame a horse"
+  entity: "HORSE"
+  interaction: "TAME"
+  xp: 220
+
+# Merchant Apprentice
+trade_villager:
+  type: INTERACT
+  name: "Merchant Apprentice"
+  description: "Trade 5 times with villagers"
+  entity: "VILLAGER"
+  interaction: "TRADE"
+  amount: 5
+  xp: 250
+
+# Cow Milker
+milk_cow:
+  type: INTERACT
+  name: "Cow Milker"
+  description: "Milk a cow"
+  entity: "COW"
+  interaction: "MILK"
+  xp: 100
+
+# Fishing Day
+fish_salmon:
+  type: INTERACT
+  name: "Fishing Day"
+  description: "Catch 3 salmon"
+  entity: "SALMON"
+  interaction: "FISH"
+  amount: 3
+  xp: 150
+
+# Alarm Test
+ring_bell:
+  type: INTERACT
+  name: "Alarm Test"
+  description: "Ring a village bell"
+  entity: "BELL"
+  interaction: "RING"
+  xp: 70
+
+# Feathered Friend
+feed_parrot:
+  type: INTERACT
+  name: "Feathered Friend"
+  description: "Feed a parrot"
+  entity: "PARROT"
+  interaction: "FEED"
+  xp: 130
+
+# Sweet Dreams
+sleep_in_bed:
+  type: INTERACT
+  name: "Sweet Dreams"
+  description: "Sleep in a bed"
+  entity: "BED"
+  interaction: "SLEEP"
+  xp: 80
+
+# Personal Storage
+open_ender_chest:
+  type: INTERACT
+  name: "Personal Storage"
+  description: "Open an Ender Chest"
+  entity: "ENDER_CHEST"
+  interaction: "OPEN"
+  xp: 90
+

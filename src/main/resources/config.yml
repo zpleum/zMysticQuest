@@ -1,0 +1,58 @@
+###############################################
+#                                             #
+#         zMysticQuest :: Main Config         #
+#   Unleash mysterious quests into your world #
+#                                             #
+###############################################
+
+# Main configuration for zMysticQuest plugin
+
+###############################################
+#              NPC Settings                  #
+#   Mysterious strangers appear in the dark  #
+###############################################
+npc:
+  # How often NPCs attempt to spawn (in seconds)
+  spawn-interval: 300
+  # How long NPCs stay after giving a quest (in seconds)
+  despawn-time: 60
+  # Max distance for NPCs to stay near a player
+  max-distance: 30
+  # Distance at which NPCs approach a player
+  approach-distance: 5
+  # Notification settings
+  notification:
+    enabled: true
+    sound: ENTITY_VILLAGER_AMBIENT
+    particles: true
+  # Skin settings for Citizens NPCs
+  skin:
+    # Leave empty to use built-in default black skin
+    signature: ""
+    texture: ""
+
+###############################################
+#              Quest Settings                #
+#  Control how players receive their trials  #
+###############################################
+quest:
+  # Maximum number of active quests a player can have
+  max-active-quests: 3
+  # Quest item appearance
+  quest-item:
+    material: PAPER
+    glow: true
+
+###############################################
+#               XP Settings                  #
+#       Track mystical experience gains      #
+###############################################
+xp:
+  enabled: true
+  storage-type: FILE
+
+###############################################
+#              Debug Settings                #
+#     Enable this for more logging info      #
+###############################################
+debug: false

@@ -1,0 +1,31 @@
+############################################################
+#                    zMysticQuest :: Rewards Config         #
+#     Players earn rewards as they accumulate XP through quests #
+############################################################
+
+rewards:
+  # Tier 1 - Basic rewards
+  tier1:
+    xp-required: 500
+    commands:
+      - "minecraft:give %player% golden_apple 2"
+      - "minecraft:effect give %player% speed 600 1 true"
+      - "minecraft:effect give %player% haste 600 1 true"
+
+  # Tier 2 - Intermediate rewards
+  tier2:
+    xp-required: 1500
+    commands:
+      - "minecraft:give %player% ender_pearl 8"
+      - "minecraft:give %player% cooked_beef 32"
+      - "minecraft:effect give %player% resistance 600 1 true"
+      - "minecraft:effect give %player% strength 600 1 true"
+
+  # Tier 3 - Advanced rewards
+  tier3:
+    xp-required: 5000
+    commands:
+      - "minecraft:give %player% totem_of_undying 1"
+      - "minecraft:give %player% potion{Potion:\"minecraft:long_invisibility\"} 1"
+      - "minecraft:effect give %player% regeneration 600 2 true"
+      - "minecraft:effect give %player% fire_resistance 600 0 true"

@@ -1,0 +1,53 @@
+###############################################
+#                                             #
+#         zMysticQuest :: Message Config      #
+#     Unveil your rewards through the quest    #
+#                                             #
+###############################################
+
+# Prefix for all messages displayed by the plugin
+prefix: "&8( &6MysticQuest &8) &r"
+
+###############################################
+#              NPC Messages                   #
+#    Communicate with mysterious figures       #
+###############################################
+npc:
+  # Message when NPC offers a quest
+  quest-offer: "&7*A mysterious figure approaches you and whispers*\n&eI have a secret quest for you. Take this scroll and tell no one."
+  # Options text for accepting/rejecting quest
+  quest-choice: "&eType &a/accept &eor &c/reject &ein chat to respond."
+  # Message when player accepts a quest
+  quest-accepted: "&7*The figure nods approvingly*"
+  # Story text that appears in ActionBar after accepting a quest
+  quest-accepted-story: "You have chosen wisely. This quest shall bring you great rewards."
+  # Message when player declines a quest
+  quest-declined: "&7*The figure looks disappointed and backs away into the shadows*\n&cPerhaps another time, when you are ready..."
+  # Message when NPC disappears due to timeout
+  quest-timeout: "&7*The mysterious figure loses interest and melts back into the darkness*\n&cYour hesitation has cost you this opportunity..."
+
+###############################################
+#              Quest Messages                 #
+#    The path of the quest reveals itself      #
+###############################################
+quest:
+  # Message when receiving a quest
+  received: "&6You have received a secret quest scroll!"
+  # Message when completing a quest
+  completed: "&aYou have completed the quest: &e%quest_name%&a!"
+  # Message when failing a quest
+  failed: "&cYou have failed the quest: &e%quest_name%&c."
+  # Message for quest progress
+  progress: "&7Quest progress: &e%progress%/%total%"
+
+###############################################
+#                XP Messages                  #
+#    Track your mysterious experience          #
+###############################################
+xp:
+  # Message when gaining XP
+  gained: "&6+%xp% Mystic XP!"
+  # Message showing total XP
+  total: "&6You now have &e%xp%&6 Mystic XP!"
+  # Message when unlocking a reward tier
+  reward-unlocked: "&6You have unlocked a new reward tier: &e%tier%&6!"

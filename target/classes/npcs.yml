@@ -1,0 +1,86 @@
+###########################################################
+#                                                         #
+#      zMysticQuest :: NPC Configuration                  #
+#    Meet mysterious figures that guide your destiny      #
+#                                                         #
+###########################################################
+
+##############################################
+#         Mysterious Stranger NPC            #
+#   Quest Types: Kill + Collect              #
+##############################################
+mysterious_stranger:
+  name: "Mysterious Stranger"
+  skin: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWU3MjZkOWJhYjUzZTM0NzEyZWVmOTk4MzEwMzQ5YWE2YzUxMDNlYTYxZWVjZGQ1MTFiNDNkMTYyNzRjNiJ9fX0="
+  quest-types:
+    - kill_zombie
+    - kill_skeleton
+    - collect_diamonds
+    - collect_emeralds
+  story: "I come from the shadows with tasks for those who dare to listen. Choose wisely, your next step may shape your fate."
+
+##############################################
+#         Explorer NPC                      #
+#   Quest Types: Explore                     #
+##############################################
+explorer:
+  name: "Explorer"
+  skin: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGNhYzk3NzRkYTEyMTcyNDg1MzJjZTE0N2Y3ODMxZjY3YTEyZmRjY2ExY2YwY2I0YjM4NDhkZTZiYzY5In19fQ=="
+  quest-types:
+    - explore_desert
+    - explore_jungle
+    - explore_ocean_monument
+  story: "Legends speak of secrets buried beneath sand and sea. Help me uncover them before time runs out."
+
+##############################################
+##############################################
+#         Shadow Hunter NPC                 #
+#   Quest Types: Kill                       #
+##############################################
+hunter:
+  name: "Shadow Hunter"
+  skin: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDM1MmNiNjNjYTQ3OGY5MGU2NWQ0OTg0OTY5MzEzZjIyMmVmMzJiNmRiNzI1MjEzOWFkYjdmZmRlNjFjYjZjZCJ9fX0="
+  quest-types:
+    - kill_enderman
+    - kill_witch
+    - kill_blaze
+  story: "Monsters roam unchecked. I've marked targets—your blade must finish them."
+
+##############################################
+#         Mysterious Collector NPC           #
+#   Quest Types: Collect                     #
+##############################################
+collector:
+  name: "Mysterious Collector"
+  skin: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDhjZGQ0ZjI4NTYzMmUyOTI4NTVkNjllNjY1NjdmYjA1OGFiNDUxYzQ4M2JkYjZiYzU5OWY4ZmNmNGYyZSJ9fX0="
+  quest-types:
+    - collect_obsidian
+    - collect_end_pearls
+    - collect_tnt
+  story: "Rare minerals are the key to something ancient... Something powerful. Will you be the one to find them?"
+
+##############################################
+#         Redstone Engineer NPC              #
+#   Quest Types: Craft                      #
+##############################################
+engineer:
+  name: "Redstone Engineer"
+  skin: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTFhOGEwYmQyZmIxNzA0OTg1NTZjODg3ZGMxYmJhNzBjODFiM2MyYzJmNGRmNjgxZmM2YTk4YmU4ZmEwZDkifX19"
+  quest-types:
+    - craft_enchanted_table
+    - craft_anvil
+    - craft_beacon
+  story: "Machines move the world. I need someone who can shape materials into wonders."
+
+##############################################
+#         Void Ritualist NPC                 #
+#   Quest Types: Interact                    #
+##############################################
+ritualist:
+  name: "Void Ritualist"
+  skin: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWUwM2EyMmU0ZmJjMWY0YTY2ZThkZGI2MzFjNzNiYTUyYTQ5Y2FjNmQyMjZlZGEyOGMwNzRhYjljZDQxMjQ2ZCJ9fX0="
+  quest-types:
+    - tame_wolf
+    - trade_villager
+    - milk_cow
+  story: "Power flows through ancient tools. If you dare activate them, you might glimpse the truth."

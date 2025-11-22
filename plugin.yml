@@ -1,0 +1,21 @@
+name: MysticQuest
+version: 1.0.0
+main: me.zpleum.zmystic.quest.MysticQuest
+api-version: 1.21
+description: A plugin that adds mysterious quest NPCs who give secret quests to players
+author: ZMystic
+commands:
+  mysticquest:
+    description: Main command for Mystic Quest plugin
+    usage: /mysticquest <reload|info>
+    aliases: [mquest, mq]
+  accept:
+    description: Accept a quest offer from an NPC
+    usage: /accept
+  reject:
+    description: Reject a quest offer from an NPC
+    usage: /reject
+permissions:
+  mysticquest.admin:
+    description: Allows access to admin commands
+    default: op 
